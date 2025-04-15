@@ -109,28 +109,55 @@ body {
   }
   
   .filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+/* Selects and Buttons styling */
+.filters select,
+.filters button {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #b8a89c;
+  border-radius: 5px;
+  background-color: #fffaf4;
+  color: #1f1f1f;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover and focus effect */
+.filters select:focus,
+.filters button:hover {
+  border-color: #7b5e48;
+  background-color: #f0e6dc;
+}
+
+/* Container for search & reset buttons */
+.filter-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Responsive layout for wider screens */
+@media (min-width: 600px) {
+  .filters {
+    flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
   }
-  
-  .filters select,
-  .filters button {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    border: 1px solid #b8a89c;
-    border-radius: 5px;
-    background-color: #fffaf4;
-    color: #1f1f1f;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
+
+  .filter-buttons {
+    flex-direction: column;
+    justify-content: space-between;
   }
-  
-  .filters select:focus,
-  .filters button:hover {
-    border-color: #7b5e48;
-    background-color: #f0e6dc;
-  }
+}
   
