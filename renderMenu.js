@@ -19,7 +19,6 @@ function populateIngredientSelects() {
     ingredients.forEach(ingredient => {
       const opt = document.createElement('option');
       opt.value = ingredient;
-      opt.textContent = ingredient;
       select.appendChild(opt);
     });
   });
