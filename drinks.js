@@ -202,5 +202,191 @@ const drinks = [
       ingredients: ["whiskey", "lemon juice"],
       image: "images/whiskey-sling.jpg",
       recipePage: 69
+    },
+    {
+      name: "Miami Beach",
+      ingredients: ["whiskey", "dry vermouth" "pink grapefruit juice"],
+      image: "images/miami-beach.jpg",
+      recipePage: 70
+    },
+    {
+      name: "Manhattan",
+      ingredients: ["whiskey", "sweet vermouth", "angostura bitters"],
+      image: "images/manhattan.jpg",
+      recipePage: 73
+    },
+    {
+      name: "Old Fashioned",
+      ingredients: ["whiskey", "angostura bitters"],
+      image: "images/old-fashioned.jpg",
+      recipePage: 73
+    },
+    {
+      name: "Flying Scotsman",
+      ingredients: ["whiskey", "sweet vermouth", "angostura bitters", "sugar syrup"],
+      image: "images/flying-scotsman.jpg",
+      recipePage: 76
+    },
+    {
+      name: "Beadlestone",
+      ingredients: ["whiskey", "dry vermouth"],
+      image: "images/beadlestone.jpg",
+      recipePage: 76
+    },
+    {
+      name: "Thistle",
+      ingredients: ["whiskey", "sweet vermouth", "angostura bitters"],
+      image: "images/thistle.jpg",
+      recipePage: 77
+    },
+    {
+      name: "Midnight Cowboy",
+      ingredients: ["brandy", "coffee liquer", "cream", "cola"],
+      image: "images/midnight-cowboy.jpg",
+      recipePage: 79
+    },
+    {
+      name: "Brandy Sour",
+      ingredients: ["brandy", "lime juice", "sugar syrup"],
+      image: "images/brandy-sour.jpg",
+      recipePage: 80
+    },
+    {
+      name: "Sidecar",
+      ingredients: ["brandy", "triple sec", "lemon juice"],
+      image: "images/sidecar.jpg",
+      recipePage: 81
+    },
+    {
+      name: "Brandy Julep",
+      ingredients: ["brandy", "sugar syrup"],
+      image: "images/brandy-julep.jpg",
+      recipePage: 81
+    },
+    {
+      name: "Hot Brandy Chocolate",
+      ingredients: ["brandy", "milk", "cream", "chocolate"],
+      image: "images/hot-brandy-chocolate.jpg",
+      recipePage: 87
+    },
+    {
+      name: "Diamond Fizz",
+      ingredients: ["champagne", "gin", "lemon juice", "sugar syrup"],
+      image: "images/diamond-fizz.jpg",
+      recipePage: 91
+    },
+    {
+      name: "Champagne Sidecar",
+      ingredients: ["champagne", "brandy", "cointreau", "lemon juice"],
+      image: "images/champagne-sidecar.jpg",
+      recipePage: 91
+    },
+    {
+      name: "Champagne Cocktail",
+      ingredients: ["champagne", "brandy", "angostura bitters", "sugar"],
+      image: "images/champagne-cocktail.jpg",
+      recipePage: 92
+    },
+    {
+      name: "Champagne Pick-Me-Up",
+      ingredients: ["champagne", "brandy", "grenadine", "orange juice", "lemon juice"],
+      image: "images/champagne-pick-me-up.jpg",
+      recipePage: 93
+    },
+    {
+      name: "Buck's Fizz",
+      ingredients: ["champagne", "orange juice"],
+      image: "images/bucks fizz.jpg",
+      recipePage: 94
+    },
+    {
+      name: "London French 75",
+      ingredients: ["champagne", "gin", "lemon juice"],
+      image: "images/london-french-75.jpg",
+      recipePage: 95
+    },
+    {
+      name: "Bellini",
+      ingredients: ["champagne", "peach juice", "sugar"],
+      image: "images/bellini.jpg",
+      recipePage: 96
+    },
+    {
+      name: "Flirtini",
+      ingredients: ["champagne", "vodka", "cointreau", "pineapple juice"],
+      image: "images/flirtini.jpg",
+      recipePage: 105
+    },
+    {
+      name: "Amarettine",
+      ingredients: ["champagne", "amaretto", "dry vermouth"],
+      image: "images/amarettine.jpg",
+      recipePage: 107
+    },
+    {
+      name: "The Queen's Cousin",
+      ingredients: ["champagne", "vodka", "orange liqueur", "triple sec", "angostura bitters", "lime juice"],
+      image: "images/the-queens-cousin.jpg",
+      recipePage: 111
+    },
+    {
+      name: "Midnight's Kiss",
+      ingredients: ["champagne", "vodka", "blue curacao", "sugar"],
+      image: "images/midnights-kiss.jpg",
+      recipePage: 112
+    },
+    {
+      name: "Pretty In Pink",
+      ingredients: ["champagne", "lemonade", "cranberry juice"],
+      image: "images/pretty-in-pink.jpg",
+      recipePage: 113
+    },
+    {
+      name: "El Toro",
+      ingredients: ["tequila", "coffee liqueur", "cream"],
+      image: "images/el-toro.jpg",
+      recipePage: 124
+    },
+    {
+      name: "High Voltage",
+      ingredients: ["tequila", "peach schnapps", "lime juice"],
+      image: "images/high-voltage.jpg",
+      recipePage: 125
+    },
+    {
+      name: "Silk Stockings",
+      ingredients: ["tequila", "raspberry liqueur", "creme de cacao", "double cream"],
+      image: "images/silk-stockings.jpg",
+      recipePage: 125
+    },
+    {
+      name: "Tequila Slammer",
+      ingredients: ["champagne", "tequila", "lemon juice"],
+      image: "images/tequila-slammer.jpg",
+      recipePage: 126
+    },
+    {
+      name: "Tequila Sunrise",
+      ingredients: ["tequila", "grenadine", "orange juice"],
+      image: "images/tequila-sunrise.jpg",
+      recipePage: 127
+    },
+    {
+      name: "Banana Daiquiri",
+      ingredients: ["rum", "triple sec", "lime juice", "sugar syrup", "cream", "banana"],
+      image: "images/banana-daiquiri.jpg",
+      recipePage: 137
+    },
+    {
+      name: "Blue Lagoon",
+      ingredients: ["vodka", "blue curacao", "lemon juice", "lemonade"],
+      image: "images/blue-lagoon.jpg",
+      recipePage: 140
+    },
+    {
+      name: "White Russian",
+      ingredients: ["vodka", "coffee liqueur", "cream"],
+      image: "images/white-russian.jpg",
+      recipePage: -
     }
   ];
