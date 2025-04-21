@@ -387,6 +387,6 @@ const drinks = [
       name: "White Russian",
       ingredients: ["vodka", "coffee liqueur", "cream"],
       image: "images/white-russian.jpg",
-      recipePage: -
+      recipePage: "-"
     }
   ];
