@@ -205,7 +205,7 @@ const drinks = [
     },
     {
       name: "Miami Beach",
-      ingredients: ["whiskey", "dry vermouth" "pink grapefruit juice"],
+      ingredients: ["whiskey", "dry vermouth", "pink grapefruit juice"],
       image: "images/miami-beach.jpg",
       recipePage: 70
     },
