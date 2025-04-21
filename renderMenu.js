@@ -93,7 +93,7 @@ function formatCategory(baseIngredient) {
         };
   
         const ingredients = document.createElement('p');
-        ingredients.textContent = "Ingredients: " + drink.ingredients.join(', ');
+        ingredients.textContent = drink.ingredients.join(', ');
   
         const leftCol = document.createElement('div');
         leftCol.style.flex = "1";
